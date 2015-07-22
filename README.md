@@ -26,7 +26,7 @@ coubRegex().test('https://coub.com/view/7cwhu');
 //=> true
 
 // get video ID
-coubRegex().exec('https://coub.com/view/7cwh0')[5];
+coubRegex().exec('https://coub.com/view/7cwh0')[3];
 //=> 62092214
 ```
 
