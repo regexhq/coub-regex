@@ -1,0 +1,45 @@
+{
+  "name": "coub-regex",
+  "description": "The correct coub video id regex",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npm install && mocha",
+    "test-cov": "npm install && istanbul cover _mocha",
+    "test-travis": "npm install && istanbul cover _mocha --report lcovonly",
+    "coveralls": "npm run test-travis && cat ./coverage/lcov.info | coveralls"
+  },
+  "author": {
+    "name": "Ruslan Ismagilov",
+    "email": "is.ismagilov@gmail.com",
+    "url": "https://github.com/isRuslan"
+  },
+  "keywords": [
+    "coub",
+    "regex",
+    "regexp",
+    "regexps",
+    "coub regex",
+    "video id",
+    "video",
+    "url"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isRuslan/coub-regex.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/isRuslan/coub-regex/blob/master/LICENSE.md"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.3",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "0.0.2"
+  },
+  "engines": {
+    "node": ">= 0.10.33",
+    "npm": ">= 1.4.28"
+  }
+}
