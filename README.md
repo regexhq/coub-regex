@@ -1,5 +1,5 @@
 # coub-regex [![Build Status](https://travis-ci.org/isRuslan/coub-regex.svg?branch=master)](https://travis-ci.org/isRuslan/coub-regex)
-> The correct coub video id regex.
+> The correct [coub](http://coub.com) url video id regex.
 
 [![NPM](https://nodei.co/npm/coub-regex.png?compact=true)](https://nodei.co/npm/coub-regex/)
 
